@@ -44,7 +44,7 @@ const cors = require("cors");
 const WebSocket = require('websocket').server;
 const wsHandler = require('./websocketHandler');
 const admin = require("firebase-admin");
-var serviceAccount = require("../backend/iot-irrigation-smart-firebase-adminsdk-4uxxh-9a380ecbf8.json");
+var serviceAccount = require("../../backend -system-irrigation-intelligent/backend/iot-irrigation-smart-firebase-adminsdk-4uxxh-9a380ecbf8.json");
 
 // firebase database config file 
 const app = express();
