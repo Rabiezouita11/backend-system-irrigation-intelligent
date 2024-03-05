@@ -130,7 +130,7 @@ app.get("/Profile/", authenticateFirebase, function (req, res) {
   });
 });
 
-app.get("/CapteurDePluie/", authenticateFirebase, function (req, res) {
+app.get("/CapteurDePluie/", function (req, res) {
   getCapteurDepluie.getCapteurDepluie(function (err, initialData) {
     res.json(initialData);
   });
