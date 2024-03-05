@@ -58,7 +58,7 @@ global.__basedir = __dirname;
 
 app.use(
   cors({
-    origin: ["http://localhost:8080", "http://localhost:4200"],
+    origin: ["http://localhost:8080", "https://frontend-system-irrigation-intelligent.vercel.app/", "http://localhost:4200"],
     credentials: true,
   })
 );
